@@ -208,24 +208,6 @@ steps:
               values: []
             appliedColumnTests: {}
             columnReference:
-              columnCounter: dd977f4b-430c-4b11-8134-28ecfe27a565
-              stepCounter: 98c9c7ae-0708-4403-a11f-da4f9c426304
-            config: {}
-            dataType: TIMESTAMP
-            defaultValue: ""
-            description: ""
-            hashColumns: []
-            isSystemCreateDate: true
-            name: SYSTEM_CREATE_DATE
-            nullable: true
-            sourceColumnReferences:
-              - columnReferences: []
-                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
-          - acceptedValues:
-              strictMatch: true
-              values: []
-            appliedColumnTests: {}
-            columnReference:
               columnCounter: 2de98275-fdfe-48ae-af77-0d9e3b6c990e
               stepCounter: 98c9c7ae-0708-4403-a11f-da4f9c426304
             config: {}
@@ -235,6 +217,24 @@ steps:
             hashColumns: []
             isSystemUpdateDate: true
             name: SYSTEM_UPDATE_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: dd977f4b-430c-4b11-8134-28ecfe27a565
+              stepCounter: 98c9c7ae-0708-4403-a11f-da4f9c426304
+            config: {}
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemCreateDate: true
+            name: SYSTEM_CREATE_DATE
             nullable: true
             sourceColumnReferences:
               - columnReferences: []
